@@ -1,0 +1,1587 @@
+<html>
+<head>
+<title>Chess</title>
+<style>
+#outer{
+height:1000px;
+width:1000px;
+border:1px solid black;
+margin:0px auto;
+}
+#row1{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col1{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col2{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col3{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col4{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col5{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col6{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col7{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col8{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col9{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col10{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#row2{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col11{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col12{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col13{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col14{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col15{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col16{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col17{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col18{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col19{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col20{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#row3{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col21{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col22{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col23{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col24{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col25{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col26{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col27{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col28{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col29{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col30{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#row4{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col31{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col32{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col33{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col34{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col35{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col36{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col37{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col38{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col39{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col40{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#row5{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col41{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col42{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col43{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col44{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col45{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col46{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col47{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col48{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col49{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col50{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#row6{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col51{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col52{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col53{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col54{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col55{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col56{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col57{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col58{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col59{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col60{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#row7{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col61{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col62{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col63{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col64{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col65{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col66{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col67{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col68{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col69{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col70{
+height:100px;
+width:100px;
+
+background-color:white;
+float:left;
+}
+
+#row8{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col71{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col72{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col73{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col74{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col75{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col76{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col77{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col78{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col79{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col80{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#row9{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col81{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col82{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col83{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col84{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col85{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col86{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col87{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col88{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col89{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col90{
+height:100px;
+width:100px;
+
+background-color:white;
+float:left;
+}
+
+#row10{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col91{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col92{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col93{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col94{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col95{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col96{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col97{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col98{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col99{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col100{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+
+</style>
+</head>
+<body>
+<!--this is main div"Outer"-->
+<div id="outer">
+<div id="row1">
+<div id="col1"></div>
+<div id="col2"></div>
+<div id="col3"></div>
+<div id="col4"></div>
+<div id="col5"></div>
+<div id="col6"></div>
+<div id="col7"></div>
+<div id="col8"></div>
+<div id="col9"></div>
+<div id="col10"></div>
+</div>
+<div id="row2">
+<div id="col11"></div>
+<div id="col12"></div>
+<div id="col13"></div>
+<div id="col14"></div>
+<div id="col15"></div>
+<div id="col16"></div>
+<div id="col17"></div>
+<div id="col18"></div>
+<div id="col19"></div>
+<div id="col20"></div>
+</div>
+<div id="row3">
+<div id="col21"></div>
+<div id="col22"></div>
+<div id="col23"></div>
+<div id="col24"></div>
+<div id="col25"></div>
+<div id="col26"></div>
+<div id="col27"></div>
+<div id="col28"></div>
+<div id="col29"></div>
+<div id="col30"></div>
+</div>
+<div id="row4">
+<div id="col31"></div>
+<div id="col32"></div>
+<div id="col33"></div>
+<div id="col34"></div>
+<div id="col35"></div>
+<div id="col36"></div>
+<div id="col37"></div>
+<div id="col38"></div>
+<div id="col39"></div>
+<div id="col40"></div>
+</div>
+<div id="row5">
+<div id="col41"></div>
+<div id="col42"></div>
+<div id="col43"></div>
+<div id="col44"></div>
+<div id="col45"></div>
+<div id="col46"></div>
+<div id="col47"></div>
+<div id="col48"></div>
+<div id="col49"></div>
+<div id="col50"></div>
+</div>
+<div id="row6">
+<div id="col51"></div>
+<div id="col52"></div>
+<div id="col53"></div>
+<div id="col54"></div>
+<div id="col55"></div>
+<div id="col56"></div>
+<div id="col57"></div>
+<div id="col58"></div>
+<div id="col59"></div>
+<div id="col60"></div>
+</div>
+<div id="row7">
+<div id="col61"></div>
+<div id="col62"></div>
+<div id="col63"></div>
+<div id="col64"></div>
+<div id="col65"></div>
+<div id="col66"></div>
+<div id="col67"></div>
+<div id="col68"></div>
+<div id="col69"></div>
+<div id="col70"></div>
+</div>
+<div id="row8">
+<div id="col71"></div>
+<div id="col72"></div>
+<div id="col73"></div>
+<div id="col74"></div>
+<div id="col75"></div>
+<div id="col76"></div>
+<div id="col77"></div>
+<div id="col78"></div>
+<div id="col79"></div>
+<div id="col80"></div>
+</div>
+<div id="row9">
+<div id="col81"></div>
+<div id="col82"></div>
+<div id="col83"></div>
+<div id="col84"></div>
+<div id="col85"></div>
+<div id="col86"></div>
+<div id="col87"></div>
+<div id="col88"></div>
+<div id="col89"></div>
+<div id="col90"></div>
+</div>
+<div id="row10">
+<div id="col91"></div>
+<div id="col92"></div>
+<div id="col93"></div>
+<div id="col94"></div>
+<div id="col95"></div>
+<div id="col96"></div>
+<div id="col97"></div>
+<div id="col98"></div>
+<div id="col99"></div>
+<div id="col100"></div>
+</div>
+</div>
+<!--this is main div"Outer"-->
+</body>
+</html><html>
+<head>
+<title>Chess</title>
+<style>
+#outer{
+height:1000px;
+width:1000px;
+border:1px solid black;
+margin:0px auto;
+}
+#row1{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col1{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col2{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col3{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col4{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col5{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col6{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col7{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col8{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col9{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col10{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#row2{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col11{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col12{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col13{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col14{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col15{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col16{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col17{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col18{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col19{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col20{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#row3{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col21{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col22{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col23{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col24{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col25{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col26{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col27{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col28{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col29{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col30{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#row4{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col31{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col32{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col33{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col34{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col35{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col36{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col37{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col38{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col39{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col40{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#row5{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col41{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col42{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col43{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col44{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col45{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col46{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col47{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col48{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col49{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col50{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#row6{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col51{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col52{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col53{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col54{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col55{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col56{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col57{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col58{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col59{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col60{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#row7{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col61{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col62{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col63{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col64{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col65{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col66{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col67{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col68{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col69{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col70{
+height:100px;
+width:100px;
+
+background-color:white;
+float:left;
+}
+
+#row8{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col71{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col72{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col73{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col74{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col75{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col76{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col77{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col78{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col79{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col80{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#row9{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col81{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col82{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col83{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col84{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col85{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col86{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col87{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col88{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col89{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col90{
+height:100px;
+width:100px;
+
+background-color:white;
+float:left;
+}
+
+#row10{
+height:100px;
+width:100%;
+border:1px solid  black;
+}
+#col91{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col92{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col93{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col94{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col95{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col96{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col97{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col98{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+#col99{
+height:100px;
+width:100px;
+background-color:white;
+float:left;
+}
+#col100{
+height:100px;
+width:100px;
+background-color:black;
+float:left;
+}
+
+</style>
+</head>
+<body>
+<!--this is main div"Outer"-->
+<div id="outer">
+<div id="row1">
+<div id="col1"></div>
+<div id="col2"></div>
+<div id="col3"></div>
+<div id="col4"></div>
+<div id="col5"></div>
+<div id="col6"></div>
+<div id="col7"></div>
+<div id="col8"></div>
+<div id="col9"></div>
+<div id="col10"></div>
+</div>
+<div id="row2">
+<div id="col11"></div>
+<div id="col12"></div>
+<div id="col13"></div>
+<div id="col14"></div>
+<div id="col15"></div>
+<div id="col16"></div>
+<div id="col17"></div>
+<div id="col18"></div>
+<div id="col19"></div>
+<div id="col20"></div>
+</div>
+<div id="row3">
+<div id="col21"></div>
+<div id="col22"></div>
+<div id="col23"></div>
+<div id="col24"></div>
+<div id="col25"></div>
+<div id="col26"></div>
+<div id="col27"></div>
+<div id="col28"></div>
+<div id="col29"></div>
+<div id="col30"></div>
+</div>
+<div id="row4">
+<div id="col31"></div>
+<div id="col32"></div>
+<div id="col33"></div>
+<div id="col34"></div>
+<div id="col35"></div>
+<div id="col36"></div>
+<div id="col37"></div>
+<div id="col38"></div>
+<div id="col39"></div>
+<div id="col40"></div>
+</div>
+<div id="row5">
+<div id="col41"></div>
+<div id="col42"></div>
+<div id="col43"></div>
+<div id="col44"></div>
+<div id="col45"></div>
+<div id="col46"></div>
+<div id="col47"></div>
+<div id="col48"></div>
+<div id="col49"></div>
+<div id="col50"></div>
+</div>
+<div id="row6">
+<div id="col51"></div>
+<div id="col52"></div>
+<div id="col53"></div>
+<div id="col54"></div>
+<div id="col55"></div>
+<div id="col56"></div>
+<div id="col57"></div>
+<div id="col58"></div>
+<div id="col59"></div>
+<div id="col60"></div>
+</div>
+<div id="row7">
+<div id="col61"></div>
+<div id="col62"></div>
+<div id="col63"></div>
+<div id="col64"></div>
+<div id="col65"></div>
+<div id="col66"></div>
+<div id="col67"></div>
+<div id="col68"></div>
+<div id="col69"></div>
+<div id="col70"></div>
+</div>
+<div id="row8">
+<div id="col71"></div>
+<div id="col72"></div>
+<div id="col73"></div>
+<div id="col74"></div>
+<div id="col75"></div>
+<div id="col76"></div>
+<div id="col77"></div>
+<div id="col78"></div>
+<div id="col79"></div>
+<div id="col80"></div>
+</div>
+<div id="row9">
+<div id="col81"></div>
+<div id="col82"></div>
+<div id="col83"></div>
+<div id="col84"></div>
+<div id="col85"></div>
+<div id="col86"></div>
+<div id="col87"></div>
+<div id="col88"></div>
+<div id="col89"></div>
+<div id="col90"></div>
+</div>
+<div id="row10">
+<div id="col91"></div>
+<div id="col92"></div>
+<div id="col93"></div>
+<div id="col94"></div>
+<div id="col95"></div>
+<div id="col96"></div>
+<div id="col97"></div>
+<div id="col98"></div>
+<div id="col99"></div>
+<div id="col100"></div>
+</div>
+</div>
+<!--this is main div"Outer"-->
+</body>
+</html>
