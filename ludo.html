@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Board</title>
+    <style>
+        #outer{
+            height:900px;
+            width:900px;
+            border:1px solid black;
+            margin:0px auto;
+        }
+         #row1{
+             height:300px;
+            width:900px;
+            /*border:1px solid black;*/
+            float:left;
+         }
+          #box1{
+             height:300px;
+            width:300px;
+            border:1px solid black;
+            float:left;
+         }
+       .row11{
+             height:150px;
+            width:300px;
+           /* border:1px solid black;*/
+            background-color: red;
+         }
+         .box11{
+            height:75px;
+            width:75px;
+            border-radius: 50px;
+            margin-top:20px;
+            margin-left:50px;
+            background-color: white;
+            float:left;
+         }
+         .box12{
+            height:75px;
+            width:75px;
+            border-radius: 50px;
+            margin-top:20px;
+            margin-right:50px;
+            background-color: white;
+            float:right;
+         }
+
+         .row12{
+             height:150px;
+            width:300px;
+           /* border:1px solid black;*/
+            background-color:red;
+         }
+         .box13{
+            height:75px;
+            width:75px;
+            border-radius: 50px;
+            margin-bottom:20px;
+            margin-left:50px;
+            background-color: white;
+            float:left;
+         }
+         .box14{
+            height:75px;
+            width:75px;
+            border-radius: 50px;
+            margin-bottom:20px;
+            margin-right:50px;
+            background-color: white;
+            float:right;
+         }
+
+         #box2{
+            height:300px;
+            width:290px;
+            border:1px solid black;
+            float:left;
+            /*background-color: blue;*/
+         }
+         .col1{
+            height:300px;
+            width:95px;
+            border: 1px solid black;
+           /* background-color: brown;*/
+            float:left;
+         }
+         .box21{
+             height:48px;
+            width:95px;
+            border: 1px solid black;
+            background-color: white;
+         }
+         .col12{
+            height:300px;
+            width:95px;
+            border: 1px solid black;
+            /*background-color: brown;*/
+            float:left;
+         }
+         .box211{
+             height:48px;
+            width:95px;
+            border: 1px solid black;
+            background-color: green;
+         }
+         
+         #box3{
+            height:300px;
+            width:300px;
+            border:1px solid black;
+            background-color: green;
+            float:left;
+         }
+         .row13{
+            height:150px;
+            width:300px;
+            /*border:1px solid black;*/
+         }
+         .row14{
+            height:150px;
+            width:300px;
+            /*border:1px solid black;*/
+         }
+
+         #row2{
+             height:300px;
+            width:900px;
+            border:1px solid black;
+            float:left;
+         }
+          .box221{
+             height:300px;
+            width:300px;
+            border:1px solid black;
+            float:left;
+           /* background-color: blue;*/
+         }
+         .col2{
+            height:97px;
+            width:300px;
+            /*background-color: aqua;*/
+            float:left;
+            border:1px solid black;
+         }
+         .row62{
+            height:97px;
+            width:48px;
+            border:1px solid black;
+            float:left;
+            /*background-color: aqua;*/
+         }
+         .row262{
+            height:97px;
+            width:48px;
+            border:1px solid black;
+            float:left;
+            background-color: red;
+         }
+      
+         .box222{
+             height:300px;
+            width:300px;
+            border:1px solid black;
+            float:left;
+            /*background-color: red;*/
+         }
+         
+          .triangleblue{
+              height:150px;
+              width:150px;
+              clip-path: polygon(50% 0%,0% 100%,100% 100%);
+              margin-left:50px;
+              margin-top:0px;
+              margin-bottom: 0px;
+              background-color: blue;
+               transform:rotate(-180deg);
+         }
+          .trianglered{
+          height:150px;
+          width:150px;
+          clip-path: polygon(50% 0%,0% 100%,100% 100%);
+          background:red;
+         transform:rotate(90deg);
+         margin-left:0px;
+         margin-top:80px;
+         }
+
+       .box223{
+             height:300px;
+            width:295px;
+            /*border:1px solid black;*/
+            float:left;
+          /* background-color: slateblue;*/
+         }
+           .row362{
+            height:97px;
+            width:48px;
+            border:1px solid black;
+            float:left;
+            background-color:yellow;
+         }
+           #row3{
+             height:300px;
+            width:900px;
+           border:1px solid black;
+            float:left;
+         }
+          .box31{
+             height:300px;
+            width:297px;
+            border:1px solid black;
+            float:left;
+            background-color: blue;
+          }
+          .row31{
+            height:150px;
+            width:299px;
+            /*border:1px solid black;*/
+          }
+          .box311{
+            height:75px;
+            width:75px;
+            border-radius: 50px;
+            margin-top:20px;
+            margin-left:50px;
+            background-color: white;
+            float:left;
+         }
+         .box312{
+            height:75px;
+            width:75px;
+            border-radius: 50px;
+            margin-top:20px;
+            margin-right:50px;
+            background-color: white;
+            float:right;
+         }
+          .row32{
+            height:150px;
+            width:295px;
+            /*border:1px solid black;*/
+          }
+           .box313{
+            height:75px;
+            width:75px;
+            border-radius: 50px;
+            margin-bottom:20px;
+            margin-left:50px;
+            background-color: white;
+            float:left;
+         }
+         .box314{
+            height:75px;
+            width:75px;
+            border-radius: 50px;
+            margin-bottom:20px;
+            margin-right:50px;
+            background-color: white;
+            float:right;
+         }
+          .box32{
+             height:300px;
+            width:295px;
+            border:1px solid black;
+            float:left;
+            /*background-color: sienna;*/
+          }
+           .box212{
+             height:47px;
+            width:95px;
+            border: 1px solid black;
+            background-color: blue;
+         }
+          .box33{
+             height:300px;
+            width:299px;
+            border:1px solid black;
+            float:left;
+            background-color: yellow;
+          }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="row1">
+     <div id="box1">
+        <div class="row11">
+          <div class="box11"></div>
+          <div class="box12"></div>
+       </div>
+        <div class="row12">
+          <div class="box13"></div>
+          <div class="box14"></div>
+          </div>
+      </div> <!--box1-->
+   
+       <div id="box2">
+        <div class="col1">
+            <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+        </div>
+        <div class="col12">
+            <div class="box21"></div>
+            <div class="box211"></div>
+            <div class="box211"></div>
+            <div class="box211"></div>
+            <div class="box211"></div>
+            <div class="box211"></div>
+        </div>
+        <div class="col1">
+           <div class="box21"></div>
+            <div class="box211"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+        </div>
+       </div> <!--box2-->
+       <div id="box3">
+           <div class="row13">
+          <div class="box11"></div>
+          <div class="box12"></div>
+       </div>
+        <div class="row14">
+          <div class="box13"></div>
+          <div class="box14"></div>
+          </div> 
+      
+       </div>
+     </div> <!--row1--> 
+     <div id="row2">
+     <div class="box221">
+      <div class="col2">
+         <div class="row62"></div>
+         <div class="row262"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+      </div>
+      <div class="col2">
+         <div class="row62"></div>
+         <div class="row262"></div>
+         <div class="row262"></div>
+         <div class="row262"></div>
+         <div class="row262"></div>
+         <div class="row262"></div>
+      </div>
+      <div class="col2">
+          <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+      </div>
+     </div>
+
+     <div class="box222">
+        <div class="trianglered"></div>
+        <div class="trianglegreen"></div>
+        <div class="triangleyellow"></div>
+        <div class="triangleblue"></div>
+       <div class="center-circle"></div>   
+     </div>
+
+     <div class="box223"> 
+           <div class="col2">
+         <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+      </div>
+      <div class="col2">
+         <div class="row362"></div>
+         <div class="row362"></div>
+         <div class="row362"></div>
+         <div class="row362"></div>
+         <div class="row362"></div>
+         <div class="row62"></div>
+      </div>
+      <div class="col2">
+          <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row62"></div>
+         <div class="row362"></div>
+         <div class="row62"></div>
+      </div>
+     </div>
+     </div>
+     <div id="row3">
+        <div class="box31">
+         <div class="row31">
+          <div class="box311"></div>
+          <div class="box312"></div>
+       </div>
+        <div class="row32">
+          <div class="box313"></div>
+          <div class="box314"></div>
+          </div>
+        </div>
+        <div class="box32">
+             <div class="col1">
+            <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box212"></div>
+            <div class="box21"></div>
+        </div>
+        <div class="col1">
+            <div class="box212"></div>
+            <div class="box212"></div>
+            <div class="box212"></div>
+            <div class="box212"></div>
+            <div class="box212"></div>
+            <div class="box21"></div>
+        </div>
+        <div class="col1">
+           <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+            <div class="box21"></div>
+        </div>
+        </div>
+        <div class="box33">
+<div class="row31">
+          <div class="box311"></div>
+          <div class="box312"></div>
+       </div>
+        <div class="row32">
+          <div class="box313"></div>
+          <div class="box314"></div>
+          </div>
+          
+        </div>
+     </div>
+
+    </div> <!--outer-->
+</body>
+</html>
